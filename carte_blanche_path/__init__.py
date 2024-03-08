@@ -11,7 +11,7 @@ from os import path
 KEYFILE = 'README.md'
 
 
-def get_root_path(keyfile=KEYFILE, start_file=__file__):
+def get_root_path(keyfile=KEYFILE, start_file='.'):
     '''walks backwards up path tree to find the project source directory using the given keyfile as a root'''
     hot_path = ''
     start_location = path.dirname(path.abspath(start_file))
