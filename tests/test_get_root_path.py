@@ -3,6 +3,6 @@ import os
 
 
 def test_get_root_path():
-    _path = get_root_path()
+    _path = get_root_path(start_file=__file__)
 
     assert _path == os.getcwd()
