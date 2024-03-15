@@ -9,7 +9,7 @@ print(packages)
 setup(
     name='carte_blanche_path',
 
-    version='1.0.1',
+    version='1.1.0',
 
     url='https://github.com/huffmsa/carte-blanche-path',
 

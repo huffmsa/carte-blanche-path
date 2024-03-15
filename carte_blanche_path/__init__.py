@@ -8,7 +8,7 @@ import sys
 from os import path
 
 
-KEYFILE = 'README.md'
+KEYFILE = 'requirements.txt'
 
 
 def get_root_path(keyfile=KEYFILE, start_file='.'):
